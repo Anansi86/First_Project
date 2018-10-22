@@ -2,12 +2,13 @@
 body {
    margin: 0px;
    font-family: 'Mali', cursive;
+   color: rgb(70, 70, 180);
 }
 
 nav {
    background-color: rgb(16, 40, 112);
    padding: 1.5rem;
-   text-align: center
+   text-align: center;
 }
 
 
@@ -21,12 +22,14 @@ nav ul li {
 
 figure {
    margin: 0px;
+   text-align: center;
 }
 
 section {
    background-color: #efefef;
    width: 500px;
    margin: 0 auto;
+   text-align: center;
 }
 
 footer {
@@ -38,3 +41,17 @@ display: block;
 margin-left: auto;
 margin-right: auto
 }
+
+.container> div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+   
+  }          
+  .container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+  } 
+  
