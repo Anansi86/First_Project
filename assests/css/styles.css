@@ -3,6 +3,7 @@ body {
    margin: 0px;
    font-family: 'Mali', cursive;
    color: rgb(70, 70, 180);
+   font-size: 2em;
 }
 
 nav {
@@ -39,7 +40,8 @@ footer {
 img { 
 display: block;
 margin-left: auto;
-margin-right: auto
+margin-right: auto;
+margin-top: 15px;
 }
 
 .container> div {
@@ -47,11 +49,21 @@ margin-right: auto
     padding: 10px;
     background-color: rgb(207,232,220);
     border: 2px solid rgb(79,185,227);
-   
-  }          
+    box-sizing: border-box;
+}         
+
   .container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    
-  } 
+   } 
+
   
+  .container img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.section--text__rotate {
+    transform: rotate(-45deg)
+}
