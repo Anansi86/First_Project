@@ -3,7 +3,7 @@ body {
    margin: 0px;
    font-family: 'Mali', cursive;
    color: rgb(70, 70, 180);
-   font-size: 2em;
+   font-size: 2rem;
 }
 
 nav {
@@ -17,8 +17,6 @@ nav ul li {
    display: inline;
    margin: 1.5rem;
    color: rgb(224, 205, 205);
-   
-   
 }
 
 figure {
@@ -66,4 +64,10 @@ margin-top: 15px;
 
 .section--text__rotate {
     transform: rotate(-45deg)
+}
+
+.nav-container {
+    display: grid;
+    grid-template: 1fr;
+    position: fixed;
 }
